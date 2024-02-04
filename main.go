@@ -44,7 +44,7 @@ func main() {
 	}()
 
 	// provide the directory to monitor
-	err = watcher.AddWith("c:/tmp")
+	err = watcher.AddWith("var/spool/gammu/inbox")
 	if err != nil {
 		log.Fatal(err)
 	}
